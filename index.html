@@ -28,9 +28,9 @@
     <main>
       <section class="container">
         <div class="notification">
-          <h1>Notifications <span class="unread">3</span></h1>
+          <h1>Notifications <span class="msg" id="notifications"></span></h1>
 
-          <a href="" class="mark-all unread-hover">Mark all as read</a>
+          <p class="mark-all unread-hover" id="mark_all">Mark all as read</p>
         </div>
 
         <!--  -->
@@ -38,13 +38,12 @@
           <div class="card-container">
             <img src="./assets/images/avatar-mark-webber.webp" alt="" />
             <div class="notification-msg">
-              <p>
+              <p class="unread-discription">
                 <strong class="notification-name unread-hover"
                   >Mark Webber</strong
                 >
                 reacted to your recent post
                 <b class="unread-hover">My first tournament today!</b>
-                <span class="dot unread"></span>
               </p>
               <p class="time">1m ago</p>
             </div>
@@ -56,13 +55,11 @@
           <div class="card-container">
             <img src="./assets/images/avatar-angela-gray.webp" alt="" />
             <div class="notification-msg">
-              <p>
+              <p class="unread-discription">
                 <strong class="notification-name unread-hover"
                   >Angela Gray</strong
                 >
                 followed you
-
-                <span class="dot unread"></span>
               </p>
               <p class="time">5m ago</p>
             </div>
@@ -74,13 +71,12 @@
           <div class="card-container">
             <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
             <div class="notification-msg">
-              <p>
+              <p class="unread-discription">
                 <strong class="notification-name unread-hover"
                   >Jacob Thompson</strong
                 >
                 has joined your group
                 <b class="unread-hover">Chess Club</b>
-                <span class="dot unread"></span>
               </p>
               <p class="time">1 day ago</p>
             </div>
@@ -174,8 +170,10 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Alberth Grande</a>.
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
