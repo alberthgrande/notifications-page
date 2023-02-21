@@ -26,159 +26,147 @@
   </head>
   <body>
     <main>
-      <div class="container">
+      <section class="container">
         <div class="notification">
-          <h1>Notifications <span>3</span></h1>
+          <h1>Notifications <span class="unread">3</span></h1>
 
-          <a href="/"> Mark all as read </a>
+          <a href="" class="mark-all unread-hover">Mark all as read</a>
         </div>
 
-        <article class="card card-bg">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-mark-webber.webp"
-            alt=""
-          />
-          <div>
-            <div class="profile-status">
+        <!--  -->
+        <article class="card unread">
+          <div class="card-container">
+            <img src="./assets/images/avatar-mark-webber.webp" alt="" />
+            <div class="notification-msg">
               <p>
-                <span class="profile-name">Mark Webber</span>
+                <strong class="notification-name unread-hover"
+                  >Mark Webber</strong
+                >
                 reacted to your recent post
-                <span class="hover-msg">My first tournament today!</span>
-                <span class="active-status dot"></span>
+                <b class="unread-hover">My first tournament today!</b>
+                <span class="dot unread"></span>
               </p>
+              <p class="time">1m ago</p>
             </div>
-
-            <p class="day-time">1m ago</p>
           </div>
         </article>
 
-        <article class="card card-bg">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-angela-gray.webp"
-            alt=""
-          />
-          <div>
-            <div class="profile-status">
+        <!--  -->
+        <article class="card unread">
+          <div class="card-container">
+            <img src="./assets/images/avatar-angela-gray.webp" alt="" />
+            <div class="notification-msg">
               <p>
-                <span class="profile-name">Angela Gray</span>
+                <strong class="notification-name unread-hover"
+                  >Angela Gray</strong
+                >
                 followed you
-                <span class="active-status dot"></span>
-              </p>
-            </div>
 
-            <p class="day-time">5m ago</p>
+                <span class="dot unread"></span>
+              </p>
+              <p class="time">5m ago</p>
+            </div>
           </div>
         </article>
 
-        <article class="card card-bg">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-jacob-thompson.webp"
-            alt=""
-          />
-          <div>
-            <div class="profile-status">
+        <!--  -->
+        <article class="card unread">
+          <div class="card-container">
+            <img src="./assets/images/avatar-jacob-thompson.webp" alt="" />
+            <div class="notification-msg">
               <p>
-                <span class="profile-name">Jacob Thompson</span>
+                <strong class="notification-name unread-hover"
+                  >Jacob Thompson</strong
+                >
                 has joined your group
-                <span class="hover-msg">Chess Club</span>
-                <span class="active-status dot"></span>
+                <b class="unread-hover">Chess Club</b>
+                <span class="dot unread"></span>
               </p>
+              <p class="time">1 day ago</p>
             </div>
-
-            <p class="day-time">1 day ago</p>
           </div>
         </article>
 
+        <!--  -->
         <article class="card">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-rizky-hasanuddin.webp"
-            alt=""
-          />
-          <div>
-            <div>
-              <div>
-                <p>
-                  <span class="profile-name">Rizky Hasanuddin</span>
-                  sent you a private message
-                </p>
-              </div>
-
-              <p class="day-time">5 days ago</p>
+          <div class="card-container">
+            <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="" />
+            <div class="notification-msg">
+              <p>
+                <strong class="notification-name unread-hover"
+                  >Rizky Hasanuddin</strong
+                >
+                sent you a private message
+              </p>
+              <p class="time">5 days ago</p>
             </div>
-
-            <div>
+          </div>
+          <div class="private-msg">
+            <p>
               Hello, thanks for setting up the Chess Club. I've been a member
               for a few weeks now and I'm already having lots of fun and
               improving my game.
-            </div>
+            </p>
           </div>
         </article>
 
+        <!--  -->
         <article class="card">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-kimberly-smith.webp"
-            alt=""
-          />
-          <div class="message">
-            <div>
-              <div>
-                <p>
-                  <span class="profile-name">Kimberly Smith</span>
-                  commented on your picture
-                </p>
-              </div>
-
-              <p class="day-time">1 week ago</p>
-            </div>
-          </div>
-          <img
-            class="message-img"
-            src="./assets/images/image-chess.webp"
-            alt=""
-          />
-        </article>
-
-        <article class="card">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-nathan-peterson.webp"
-            alt=""
-          />
-          <div>
-            <div>
+          <div class="card-container">
+            <img src="./assets/images/avatar-kimberly-smith.webp" alt="" />
+            <div class="notification-msg">
               <p>
-                <span class="profile-name">Nathan Peterson</span>
-                reacted to your recent post 5 end-game strategies to increase
-                your win rate
+                <strong class="notification-name unread-hover">
+                  Kimberly Smith</strong
+                >
+                commented on your picture
               </p>
+              <p class="time">1 week ago</p>
             </div>
-
-            <p class="day-time">2 weeks ago</p>
+            <img
+              class="chat-image"
+              src="./assets/images/image-chess.webp"
+              alt=""
+            />
           </div>
         </article>
 
+        <!--  -->
         <article class="card">
-          <img
-            class="profile-img"
-            src="./assets/images/avatar-anna-kim.webp"
-            alt=""
-          />
-          <div>
-            <div>
+          <div class="card-container">
+            <img src="./assets/images/avatar-nathan-peterson.webp" alt="" />
+            <div class="notification-msg">
               <p>
-                <span class="profile-name">Anna Kim left</span>
-                the group Chess Club
+                <strong class="notification-name unread-hover">
+                  Nathan Peterson</strong
+                >
+                reacted to your recent post
+                <b class="unread-hover"
+                  >5 end-game strategies to increase your win rate</b
+                >
               </p>
+              <p class="time">2 weeks ago</p>
             </div>
-            <p class="day-time">2 weeks ago</p>
           </div>
         </article>
-      </div>
+
+        <!--  -->
+        <article class="card">
+          <div class="card-container">
+            <img src="./assets/images/avatar-anna-kim.webp" alt="" />
+            <div class="notification-msg">
+              <p>
+                <strong class="notification-name unread-hover">
+                  Anna Kim</strong
+                >
+                left the group
+                <b class="unread-hover">Chess Club</b>
+              </p>
+              <p class="time">2 weeks ago</p>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer>
